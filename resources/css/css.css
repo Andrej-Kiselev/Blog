@@ -1,0 +1,47 @@
+#mainDiv { 
+	background-color: #282B34;
+}
+
+#content {
+	background-color: #E7ECEF;
+	opacity: 0.9;
+	height: 1000px;
+	border: 1px solid black;
+	border-top: 0;
+}
+
+ul li {
+	color: white;
+	width: 234px;
+	height: 50px;
+	padding: 0;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: center;
+}
+
+ul li a {
+	color: #E7ECEF;
+}
+
+#registrationForm {
+	width: 350px;
+	height: 180px;
+	background-color: #a8b1bf;
+	border-radius: 10px;
+	margin-top: 150px;
+}
+
+#accountMenu {
+	width: 350px;
+	height: 180px;
+	background-color: #a8b1bf;
+	border-radius: 10px;
+	margin-top: 150px;
+}

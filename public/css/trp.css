@@ -1,0 +1,93 @@
+.img-responsive{
+    max-width: 300px;
+    max-width: 300px;
+}
+
+#mainDiv { 
+	background-color: #282B34;
+}
+
+.content {
+	background-color: #E7ECEF;
+	opacity: 0.9;
+    min-height: 920px;
+	max-height: 1300px;
+	border: 1px solid black;
+	border-top: 0;
+}
+
+
+#navBarL ul li {
+    color: white;
+    width: 195px;
+    height: 50px;
+    padding: 0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+ul li a {
+	color: #E7ECEF;
+}
+
+#registrationForm {
+	width: 350px;
+	height: 180px;
+	background-color: #a8b1bf;
+	border-radius: 10px;
+	margin-top: 150px;
+}
+
+#accountMenu {
+	width: 350px;
+	height: 180px;
+	background-color: #a8b1bf;
+	border-radius: 10px;
+	margin-top: 150px;
+}
+
+#newModal{
+    z-index: 5;
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    display: none;
+    margin-left: -350px;
+    margin-top: -250px;
+    opacity: 0;
+    position: fixed;
+    background: #ffe;
+}
+
+#backs {
+    z-index:3;
+    position:fixed;
+    background-color:#000;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    cursor:pointer;
+    display:none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul.pagination li a {
+    margin: 0 4px 4px; /* 0 is for top and bottom. Feel free to change it */
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
